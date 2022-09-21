@@ -1,58 +1,184 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+  <div class="container">
+    <div class="row gx-5">
+      <div class="col-sm-4">
+        <div class="row gy-2">
+          <div class="section"><i class="bi bi-stars"></i> ทักษะ</div>
+          <div class="col-12">
+            <div>
+              HTML,CSS และ Vue.js
+              <div class="progress">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  aria-label="Example with label"
+                  style="width: 80% "
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  80%
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div>
+              User Interface Design
+              <div class="progress">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  aria-label="Example with label"
+                  style="width: 65%"
+                  aria-valuenow="65"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  65%
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div>
+              MySQL
+              <div class="progress">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  aria-label="Example with label"
+                  style="width: 50%"
+                  aria-valuenow="50"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  50%
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div>
+              C#
+              <div class="progress">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  aria-label="Example with label"
+                  style="width: 25%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  25%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="row gy-2">
+          <div class="col-12">
+            <div class="section"><i class="bi bi-telephone-fill"></i> ติดต่อ</div>
+          </div>
+          <div class="col-12">
+            <div class="">เบอร์โทร : 094-950-9884</div>
+          </div>
+          <div class="col-12">
+            <div>อีเมล์ : teraput.fumfoire@gmail.com</div>
+          </div>
+          <div class="col-12">
+            <div class="">ที่อยู่ : เลขที่ 21 หมู่ 2 ตําบลป่าไผ่ อําเภอลี้ จังหวัดลําพูน 51110</div>
+          </div>
+        </div>
+        <hr />
+        <div class="row gy-1">
+          <div class="col-12">
+            <div class="section"><i class="bi bi-globe"></i> โซเชียล</div>
+          </div>
+          <div class="col-12">
+            <div class="">Facebook : <a href="https://www.facebook.com/nonognalux" class="link-dark">Nonog Narlux</a></div>
+          </div>
+          <div class="col-12">
+            <div class="">Twitter : <a href="https://twitter.com/NNaluxx" class="link-dark">nonog_naluxx</a></div>
+          </div>
+          <div class="col-12">
+            <div class="">LineID : <a>nonog_nalux</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-8">
+        <div class="row gy-2">
+          <div class="col-sm-12">
+            <div class="section"><i class="bi bi-watch"></i> ประสบการณ์ทํางาน</div>
+          </div>
+          <div class="col-12">
+            <div class="">2020 - 2021 </div>
+            <p>นักศึกษาฝึกงาน บริษัท ลาภา ซิสเต็มส์ จํากัด</p>
+          </div>
+        </div>
+        <hr />
+        <div class="row gy-2">
+          <div class="col-12">
+            <div class="section"><i class="bi bi-mortarboard-fill"></i> การศึกษา</div>
+          </div>
+          <div class="col-12">
+            <div class="">มัธยมศึกษา</div>
+            <p>2560, โรงเรียนเวียงเจดีย์วิทยา, GPA 3.04/4</p>
+          </div>
+          <div class="col-12">
+            <div class="">ปริญญาตรี คณะ วิทยาศาสตร์, สาขาวิชาเอก วิทยาการคอมพิวเตอร์</div>
+            <p>2564, มหาวิทยาลัยแม่โจ้, GPA 3.11/4</p>
+          </div>
+        </div>
+        <hr />
+        <div class="row gy-2">
+          <div class="col">
+            <div class="row gy-1">
+              <div class="col-12">
+                <div class="section"><i class="bi bi-palette"></i> งานอดิเรก/ความสนใจ</div>
+              </div>
+              <div class="col-12">
+                <div class="">1. เล่นเกม</div>
+              </div>
+              <div class="col-12">
+                <div class="">2. อ่านหนังสือ</div>
+              </div>
+              <div class="col-12">
+                <div class="">3. ร้องเพลง</div>
+              </div>
+              <div class="col-12">
+                <div class="">4. เล่นอินเตอร์เนต</div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row gy-1">
+              <div class="col-12">
+                <div class="section"><i class="bi bi-graph-up-arrow"></i> เป้าหมายในการทำงาน</div>
+              </div>
+              <div class="col-12">
+                <div class="">- เป็นผู้เชี่ยวชาญในสายงานของตน</div>
+              </div>
+              <div class="col-12">
+                <div class="">- ได้ทำงานที่มั่นคง งานประจำ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
-}
+  name: "HelloWorld",
+};
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+<style>
 </style>
